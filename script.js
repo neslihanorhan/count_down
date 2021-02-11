@@ -8,7 +8,6 @@ const secondsEl = document.getElementById("seconds");
 setInterval(updateCountdown, 1000);
 var flakeInterval = setInterval(createSnowFlake, 50)
 
-// Yağışı durdur
 // setTimeout(() => {
 // 	clearInterval(flakeInterval);
 // }, 10000);
